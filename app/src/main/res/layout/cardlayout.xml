@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#526D82"
+    >
+        <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/imageView"/>
+        <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+
+                    android:id="@+id/Subject"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+        <TextView
+                android:text="Subject: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+<!--        <TextView-->
+<!--                android:text="Date:"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="20dp"-->
+<!--                android:layout_marginLeft="90dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:textColor="@color/white"/>-->
+<!--        <TextView-->
+<!--                android:text="TextView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/Date"-->
+<!--                android:textSize="20dp"-->
+<!--                android:layout_marginLeft="170dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:textColor="@color/white"/>-->
+        <TextView
+                android:text="Time:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Time"
+                android:textSize="20dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="360dp"
+        android:id="@+id/delete_rec"
+        android:src="@drawable/baseline_delete_forever_24"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Type:"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="60dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Type:"
+                  android:textSize="20dp"
+                  android:textColor="@color/white"
+                  android:layout_marginLeft="170dp"
+                  android:layout_marginTop="60dp"
+        android:id="@+id/Type"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Faculty:"
+                  android:textSize="20dp"
+                  android:textColor="@color/white"
+                  android:layout_marginLeft="90dp"
+                  android:layout_marginTop="90dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Type:"
+                  android:textSize="20dp"
+                  android:textColor="@color/white"
+                  android:layout_marginLeft="170dp"
+                  android:layout_marginTop="90dp"
+                  android:id="@+id/Faculty"/>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
